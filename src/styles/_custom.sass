@@ -2,31 +2,100 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 40%
+    right: 50%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
     right: 30%
 
+
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.cajon.color-acento-contenido
+  background-color: lighten($color-acento-contenido, 10%)
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+i.fas.fa-play.color-acento-botones
+  color: $color-acento-botones
+i.fas.fa-play.color-acento-contenido
+  color: $color-acento-contenido
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.cuadro-1
+  background-color: #EEE6FF
+  border-radius: 2rem
 
-figcaption
-  font-weight: normal
+.card-header.color-secundario
+  background-color: $color-secundario
+  h4
+    color: #FFFFFF
+    
+.card-header.color-primario
+  background-color: $color-primario
+  min-height: 76px
+  h4
+    color: #FFFFFF
+.card-body.color--gris-a
+  background-color: #F9F7EC
+  border: none
+  border-bottom: 1rem solid lighten($color-primario, 20%)
+.card-body.color--gris-b
+  background-color: #F9F7EC
+  border: none
+  border-bottom: 1rem solid lighten($color-secundario, 20%)
+
+.tema1
+  .tabla-a table
+    min-width: auto
+    tr,td
+      line-height: 0.5em
+  .texto-grande
+    .h1
+      font-weight: normal
+      color: #2E0877
+  .texto-grande
+    .h2
+      font-weight: normal
+      color: #2E0877
+      background-color: rgb(37, 255, 255)
+      padding: 0.2em
+      border-radius: 1.5rem
+  .tarjeta-numerada__numero
+    top: 0px
+    height: 50px
+    width: 50px
+    transform: none
+    border-radius: 0px
+  .tarjeta-numerada
+    margin-left: 2px
+    border-radius: 0px
+    border: none
+    background-color: #FFFFFF
+    
+  .cuadro-2
+    background-color: #DEE9F0
+    border-radius: 1rem
+    .col-auto
+      background-color: $color-primario
+      border-radius: 1rem
+  .tarjeta-avatar-b
+    height: 72%
+
+.tema5
+  .img-infografica__card
+    width: 500px
+
+
+
+mi.italic
+  font-style: italic
+  font-family: "Roboto", sans-serif
+  font-size: 14px
+
+.cajon.color-adicional-1
+  background-color: #F9F7EC
