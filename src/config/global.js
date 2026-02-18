@@ -344,8 +344,7 @@ export default {
     {
       referencia:
         'International Renewable Energy Agency [IRENA]. (2020a). <em>Costos de Generación de Energía Renovable en 2019.</em> ',
-      link:
-        'https://irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jun/IRENA_Costs_2019_ES.PDF?la=en&hash=A74F5A6BA01D86C175702B4F27C7086AF5D23F9',
+      link: '',
     },
     {
       referencia:
@@ -379,8 +378,7 @@ export default {
     {
       referencia:
         'PROCOLOMBIA. (2021). <em>Colombia recibe cada vez más inversión extranjera en energías renovables.</em> ',
-      link:
-        'https://procolombia.co/noticias/colombia-recibe-cada-vez-mas-inversion-extranjera-en-energias-renovables',
+      link: '',
     },
     {
       referencia:
