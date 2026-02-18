@@ -156,7 +156,7 @@
                   h3.mb-1 Mapa del gas de Colombia
                   p.text-small Acceda al siguiente enlace, en donde podrá consultar el mapa de la cadena de gas natural de Colombia, del Ministerio de Minas y Energía y la Unidad de Planeación Minero Energética, disponible en:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="http://www.upme.gov.co/Docs/Chain_Gas_Natural.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://www1.upme.gov.co/sipg/Publicaciones_SIPG/Mapas_hidrocarburos_UPME_2024_V5.pdf" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -386,7 +386,7 @@
                     span Ir al sitio web
                     i.fas.fa-link
                   br
-                  a.boton.color-acento-botones.my-2(href="http://apps.pacifica.co/epmfactura/?hash=gas" target="_blank")
+                  a.boton.color-acento-botones.my-2(href="https://www.epm.com.co/clientesyusuarios/servicio-al-cliente/tu-factura/nueva-factura-epm/#" target="_blank")
                     span Ir al sitio web
                     i.fas.fa-link
 
